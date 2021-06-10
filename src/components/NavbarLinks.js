@@ -10,7 +10,7 @@ const pages = [
 
 export default function NavbarLinks() {
   return (
-    <ul className="flex gap-5 divide-x">
+    <ul className="pb-5 pt-5 md:pt-0 md:pb-0 md:flex md:gap-5 md:divide-x">
       {pages.map(page => (
         <li className="pl-5 hover:text-pink-200 font-light">
           <Link to={page.url}>{page.name}</Link>

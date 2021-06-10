@@ -4,7 +4,7 @@ import NavbarLinks from "./NavbarLinks"
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center py-5 px-20  bg-pink-600 text-gray-50 shadow-xl">
+    <nav className="flex flex-col md:flex-row divide-y md:divide-y-0 gap-5 justify-between items-center md:py-5 pt-5 px-4 md:px-20 bg-pink-600 text-gray-50 shadow-xl">
       <Link to="/" className="text-2xl font-bold hover:text-pink-200 flex">
         Rabbit
         <span>
