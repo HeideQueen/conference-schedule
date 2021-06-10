@@ -5,7 +5,7 @@ import NavbarLinks from "./NavbarLinks"
 export default function Navbar() {
   return (
     <nav className="flex justify-between items-center py-5 px-20  bg-pink-600 text-gray-50 shadow-xl">
-      <Link to="/home" className="text-2xl font-bold hover:text-pink-200 flex">
+      <Link to="/" className="text-2xl font-bold hover:text-pink-200 flex">
         Rabbit
         <span>
           <svg

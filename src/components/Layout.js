@@ -6,8 +6,8 @@ export default function Layout({ children }) {
     <div>
       <Navbar />
       <div>{children}</div>
-      <footer>
-        <p>RabbitCon is brought to you by the Usada Kensetsu Corp.</p>
+      <footer className="bg-pink-600 text-gray-50 flex justify-center items-center h-14">
+        <p>RabbitCon is brought to you by the Usada Kensetsu Corp. 2021</p>
       </footer>
     </div>
   )
